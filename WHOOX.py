@@ -25,8 +25,8 @@ class whoox:
     input = "\u001b[37m"+"whoox~$ "+"\u001b[0m"
 
     titlePrefix = "\u001b[34m"+"[*] "+"\u001b[0m"
-    infoPrefix = "\u001b[37m"+"["+"\u001b[0m"+  "\u001b[35m"+"?"+"\u001b[0m"  +"\u001b[37m"+"]"+"\u001b[0m"
-    errorPrefix = "\u001b[37m"+"["+"\u001b[0m"+  "\u001b[31m"+"!"+"\u001b[0m"  +"\u001b[37m"+"]"+"\u001b[0m"
+    infoPrefix = "\u001b[37m"+"["+"\u001b[0m"+  "\u001b[35m"+"?"+"\u001b[0m"  +"\u001b[37m"+"] "+"\u001b[0m"
+    errorPrefix = "\u001b[37m"+"["+"\u001b[0m"+  "\u001b[31m"+"!"+"\u001b[0m"  +"\u001b[37m"+"] "+"\u001b[0m"
 
 if currentOS.lower().startswith("windows") == False and currentOS.lower().startswith("linux") == False:
     print(whoox.default+"\n{whoox.errorPrefix}Error, unsupported OS.")
@@ -69,7 +69,7 @@ while True:
                 provider = carrier.name_for_number(phoneNumber, 'en')
                 localFormat = phonenumbers.format_number(phoneNumber, phonenumbers.PhoneNumberFormat.NATIONAL)
                 internationalFormat = phonenumbers.format_number(phoneNumber, phonenumbers.PhoneNumberFormat.INTERNATIONAL)
-                print(f"{whoox.infoPrefix} Valid: {valid}")
+                print(f"{whoox.infoPrefix}Valid: {valid}")
                 print(f"{whoox.infoPrefix}Provider: {provider}")
                 print(f"{whoox.infoPrefix}Country: {country}")
                 print(f"{whoox.infoPrefix}Raw Number: {command}")
