@@ -32,12 +32,11 @@ if currentOS.lower().startswith("windows") == False and currentOS.lower().starts
     print(whoox.default+"\n{whoox.errorPrefix}Error, unsupported OS.")
     exit()
 else:
+    if currentOS.lower().startswith("windows"):
+        os.system("cls")
+    else:
+        os.system("clear")
     print(whoox.default)
-
-if currentOS.lower().startswith("windows"):
-    os.system("cls")
-else:
-    os.system("clear")
 
 # Code
 while True:
