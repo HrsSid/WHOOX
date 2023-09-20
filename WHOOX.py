@@ -34,6 +34,11 @@ if currentOS.lower().startswith("windows") == False and currentOS.lower().starts
 else:
     print(whoox.default)
 
+if currentOS.lower().startswith("windows"):
+    os.system("cls")
+else:
+    os.system("clear")
+
 # Code
 while True:
     try:
