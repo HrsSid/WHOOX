@@ -24,6 +24,7 @@ python3 WHOOX.py
 - Run the `requirements.py` file
 
 # Usage
+Note: Replace `{phoneNumber}` with your phone number. (remember to enter the **international syntax**, `{countryCode}{number}`)
 ```
 [*] Basic Commands:
 [?] clear -> Clears the terminal. Usage -> 'clear'.
