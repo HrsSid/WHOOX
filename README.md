@@ -6,6 +6,11 @@
   <br>
 </p>
 
+# Requirements
+- A windows or linux operating system
+- Python 3.10 (later versions of python might not be compatible)
+- Run the `requirements.py` file
+
 # Instalation
 ```
 # Install the tool on your system
@@ -17,11 +22,6 @@ cd WHOOX
 # Enter the tool's UI
 python3 WHOOX.py
 ```
-
-# Requirements
-- A windows or linux operating system
-- Python 3.10 (later versions of python might not be compatible)
-- Run the `requirements.py` file
 
 # Usage
 Note: Replace `{phoneNumber}` with your phone number. (remember to enter the **international syntax**, `{countryCode}{number}`)
