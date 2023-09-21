@@ -7,14 +7,15 @@
 </p>
 
 # Instalation
-#### Linux:
 ```
+# Install the tool on your system
 git clone https://github.com/HrsSid/WHOOX
-```
 
-#### Windows:
-```
-git clone https://github.com/HrsSid/WHOOX
+# Navigate to the tool directory
+cd WHOOX
+
+# Enter the tool's UI
+python3 WHOOX.py
 ```
 
 # Requirements
