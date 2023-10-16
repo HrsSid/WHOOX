@@ -24,6 +24,12 @@ python3 WHOOX.py
 ```
 
 # Usage
+<p align=center>
+  <br>
+  <img style="position: absolute; top: 50%; left: 50%;" src="https://github.com/HrsSid/WHOOX/assets/105165515/84e18570-6d8c-4621-bbce-29073ba6ad3a" width="1000">
+  <br>
+</p>
+
 Note: Replace `{phoneNumber}` with your phone number. (remember to enter the **international syntax**, `{countryCode}{number}`)
 ```
 [*] Basic Commands:
