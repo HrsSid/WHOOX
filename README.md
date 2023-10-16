@@ -32,9 +32,5 @@ python3 WHOOX.py
 
 Note: Replace `{phoneNumber}` with your phone number. (remember to enter the **international syntax**, `{countryCode}{number}`)
 ```
-[*] Basic Commands:
-[?] clear -> Clears the terminal. Usage -> 'clear'.
-
-[*] Identity Search Commands:
-[?] {phoneNumber} -> Displays information about a phone number. Usage -> '{phoneNumber}'
+{phoneNumber}
 ```
