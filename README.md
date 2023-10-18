@@ -11,7 +11,7 @@
 - Python 3.10 (later versions of python might not be compatible)([Download Python](https://www.python.org/downloads/))
 - `python3 requirements.py`, run the `requirements.py` file
 
-# Instalation
+# Installation
 ```
 # Install the tool on your system
 git clone https://github.com/HrsSid/WHOOX
